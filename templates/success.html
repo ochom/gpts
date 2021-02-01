@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+{% block header %}
+   {% include "components/header.html" %}
+{% endblock %}
+<body>
+{% block topnav %}
+   {% include "components/topnav.html" %}
+{% endblock %}
+<section class="sectionFeedBack">
+    <div class="row mx-auto justify-content-center">
+      <div class="col-11 col-md-3">
+        <div class="card card-body border-0 p-0 my-3">
+          <img src="{% static '/images/undraw_certification_aif8.png' %}" alt="Success Icon">
+        </div>
+      </div>
+    </div>
+    <h3 class="text-center text-success">Your form data was submitted successfully</h3>
+  </section>
+
+  <section class="section6" id="partners">
+    <img src="{% static 'images/partners.png' %}" alt="partners">
+  </section>
+
+  <section class="section8 py-3 bg-dark text-light">
+    <h6 class="text-center m-0 p-0">
+      &copy; <script>
+        document.write(new Date().getFullYear());
+      </script> GPTS</h6>
+  </section>
+
+  <script src="{% static 'js/index.js' %}"></script>
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box; }
+
+video {
+  object-fit: cover; }
+
+body {
+  background-color: #f0f0f0;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Space Grotesk', sans-serif !important; }
+  body .navbar .navbar-brand {
+    color: #045121 !important;
+    font-weight: bold; }
+    body .navbar .nav-link {
+      font-weight: bold;
+      margin-right: 10px; }
+    body .navbar .active {
+      color: #fc0008 !important; }
+  body .section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 150px 0;
+    justify-content: center;
+    text-align: center;
+    color: white; }
+    body .section::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+      z-index: -1;
+      background-color: rgba(0, 0, 0, 0.671); }
+    body .section::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-image: url('/static/images/WhatsApp Image 2021-01-27 at 10.24.56.jpeg');
+      z-index: -2; }
+    body .section h1 {
+      margin: 0;
+      margin-top: 50px;
+      text-align: center;
+      color: white;
+      font-size: 4em;
+      font-weight: 400; }
+    body .section p {
+      color: #f6c566;
+      font-size: 1.5em;
+      margin: 40px 0;
+      padding: 0 5em; }
+    body .section .btn-start {
+      font-size: 0.9em;
+      color: white;
+      background-color: #013220;
+      border: none;
+      padding: 20px 40px;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none; }
+      body .section .btn-start:hover {
+        background-color: #045121; }
+  body .section2 {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-color: white; }
+    body .section2 h2 {
+      text-align: center; }
+    body .section2 .card {
+      text-align: center;
+      border: none !important; }
+      body .section2 .card i {
+        font-size: 2.5em;
+        margin: 10px 0;
+        color: #f6c566; }
+  body .section3 {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-color: #d1d1d1;
+    justify-content: center; }
+    body .section3 h2 {
+      color: #045121;
+      text-align: center;
+      margin: 0; }
+    body .section3 p {
+      padding: 0 5em; }
+    body .section3 h3 {
+      color: #f48637; }
+    body .section3 b {
+      font-family: 'Courier New', Courier, monospace !important;
+      font-weight: 700;
+      font-size: 1.2em; }
+  body .section4 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px 0;
+    justify-content: center; }
+    body .section4::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+      z-index: -1;
+      background-color: rgba(0, 0, 0, 0.808); }
+    body .section4::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+      z-index: -2;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-image: url('/images/WhatsApp Image 2021-01-27 at 10.24.46 (1).jpeg'); }
+    body .section4 h2 {
+      color: #f48637;
+      text-align: center;
+      margin: 0; }
+    body .section4 h4 {
+      color: #045121;
+      font-size: 1em;
+      padding: 0 0.8em;
+      font-style: italic; }
+    body .section4 .card {
+      overflow: hidden; }
+      body .section4 .card img {
+        height: 200px; }
+    body .section4 p {
+      font-size: 0.8em;
+      padding: 0 0.8em;
+      color: #414140; }
+  body .section5 .card {
+    padding: 0 !important;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.7); }
+    body .section5 .card img {
+      height: auto;
+      width: 100%; }
+    body .section5 ul {
+      list-style: none; }
+    body .section5 ul li {
+      border-radius: 5px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.7);
+      margin-bottom: 15px;
+      padding: 10px 20px; }
+      body .section5 ul li::before {
+        content: "\25C8";
+        color: #f48637;
+        font-weight: bold;
+        display: inline-block;
+        width: 1.5em;
+        margin-left: 0; }
+  body .section6 img {
+    margin-left: 0;
+    width: 100vw;
+    height: auto; }
+  body .section7 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    justify-content: center;
+    text-align: center;
+    color: white; }
+    body .section7::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+      z-index: -1;
+      background-color: rgba(0, 0, 0, 0.7); }
+    body .section7::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-image: url('/images/WhatsApp Image 2021-01-27 at 10.24.50.jpeg');
+      z-index: -2; }
+    body .section7 h2 {
+      text-align: center;
+      color: #f48637;
+      font-size: 3em;
+      font-weight: 400; }
+    body .section7 p {
+      color: #045121;
+      font-size: 1.5em;
+      padding: 0 2em;
+      font-weight: bold;
+      margin-bottom: 50px; }
+    body .section7 a {
+      text-decoration: none;
+      color: white; }
+    body .section7 .btn-start {
+      font-size: 0.9em;
+      color: white;
+      background-color: #013220;
+      border: none;
+      padding: 20px 40px;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none; }
+    body .section7 .btn-start:hover {
+      background-color: #045121; }
+  body .section8 a {
+    text-decoration: none;
+    color: white; }
+    body .section8 .btn-start {
+      font-size: 0.9em;
+      color: white;
+      background-color: #013220;
+      border: none;
+      padding: 20px 40px;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none; }
+    body .section8 .btn-start:hover {
+      background-color: #045121; }
+  body .sectionFeedBack {
+    height: auto;
+    padding: 70px 0; }
+    body .sectionFeedBack img {
+      width: 100%;
+      height: auto;}
